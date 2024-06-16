@@ -1,0 +1,8 @@
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\NOT.X\MAIN.ASM 2 : Found directive in column 1. (__CONFIG)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\NOT.X\MAIN.ASM 4 : Found directive in column 1. (LIST)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\NOT.X\MAIN.ASM 6 : Found directive in column 1. (INCLUDE)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\NOT.X\MAIN.ASM 9 : Found directive in column 1. (ORG)
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\NOT.X\MAIN.ASM 15 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\NOT.X\MAIN.ASM 16 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\NOT.X\MAIN.ASM 23 : Found label after column 1. (INICIO)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\NOT.X\MAIN.ASM 32 : Found directive in column 1. (END)

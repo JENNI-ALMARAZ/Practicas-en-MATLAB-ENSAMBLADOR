@@ -1,0 +1,194 @@
+MPASM 5.84                          MAIN.ASM   3-13-2024  10:05:41         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00001 ; CONFIGURACIONES INICIALES
+Warning[205]: Found directive in column 1. (__CONFIG)
+2007   3FF1           00002 __CONFIG _XT_OSC & _WDT_OFF & _PWRTE_ON & _CP_OFF
+                      00003 
+Warning[205]: Found directive in column 1. (LIST)
+                      00004 LIST P=16F84A     ; Indicamos el procesador a usar
+Warning[205]: Found directive in column 1. (INCLUDE)
+                      00005 INCLUDE <P16F84A.INC>   ; Agregamos la librería
+                      00001         LIST
+                      00002 
+                      00003 ;==========================================================================
+                      00004 ; Build date : Mar 17 2019
+                      00005 ;  MPASM PIC16F84A processor include
+                      00006 ; 
+                      00007 ;  (c) Copyright 1999-2019 Microchip Technology, All rights reserved
+                      00008 ;==========================================================================
+                      00009 
+                      00209         LIST
+                      00006 
+Warning[205]: Found directive in column 1. (ORG)
+                      00007 ORG 0x00    
+                      00008 
+Warning[203]: Found opcode in column 1. (BSF)
+0000   1683           00009 BSF STATUS, RP0    ; Cambiamos al banco 1
+Warning[203]: Found opcode in column 1. (MOVLW)
+Warning[202]: Argument out of range.  Least significant bits used.
+0001   301B           00010 MOVLW 00000011b         ; Configuramos todos los pines de PORTA como entradas
+Warning[203]: Found opcode in column 1. (MOVWF)
+Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
+0002   0085           00011 MOVWF TRISA
+Warning[203]: Found opcode in column 1. (CLRF)
+Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
+0003   0186           00012 CLRF TRISB         ; Configuramos los pines RB0-RB7 como salidas
+Warning[203]: Found opcode in column 1. (BCF)
+0004   1283           00013 BCF STATUS, RP0    ; Regresamos al banco 0
+                      00014 
+Warning[203]: Found opcode in column 1. (CLRF)
+0005   0186           00015 CLRF PORTB
+Warning[203]: Found opcode in column 1. (BSF)
+0006   1403           00016 BSF STATUS,0
+0007                  00017 INICIO:
+0007   1805           00018     BTFSC   PORTA, 0       ; Si RA0 está presionado
+0008   2???           00019     GOTO    DESPLAZAR_DERECHA  
+0009   1885           00020     BTFSC   PORTA, 1       ; Si RA1 está presionado
+000A   2???           00021     GOTO    DESPLAZAR_IZQUIERDA
+000B   2???           00022     GOTO    INICIO         ; Vuelve al inicio para volver a comprobar el estado de los botones
+                      00023 
+000C                  00024 DESPLAZAR_DERECHA
+000C   1885           00025     BTFSC   PORTA, 1       ; Si también está presionado RA1, no hacer nada
+000D   2???           00026     GOTO    INICIO         ; Vuelve al inicio para volver a comprobar el estado de los botones
+Message[305]: Using default destination of 1 (file).
+000E   0C86           00027     RRF     PORTB          ; desplaza el bit a la derecha en PORTB (RB0-RB7)
+000F   2???           00028     GOTO    INICIO         ; Vuelve al inicio para volver a comprobar el estado de los botones
+MPASM 5.84                          MAIN.ASM   3-13-2024  10:05:41         PAGE  2
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00029 
+0010                  00030 DESPLAZAR_IZQUIERDA
+0010   1805           00031     BTFSC   PORTA, 0       ; Si también está presionado RA0, no hacer nada
+0011   2???           00032     GOTO    INICIO         ; Vuelve al inicio para volver a comprobar el estado de los botones
+Message[305]: Using default destination of 1 (file).
+0012   0D86           00033     RLF     PORTB          ; desplaza el bit a la izquierda en PORTB (RB0-RB7)
+0013   2???           00034     GOTO    INICIO         ; Vuelve al inicio para volver a comprobar el estado de los botones
+                      00035 
+Warning[205]: Found directive in column 1. (END)
+3FF1                  00036 END    ; Fin del programa
+MPASM 5.84                          MAIN.ASM   3-13-2024  10:05:41         PAGE  3
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+C                                 00000000
+DC                                00000001
+DESPLAZAR_DERECHA                 0000000C
+DESPLAZAR_IZQUIERDA               00000010
+EEADR                             00000009
+EECON1                            00000088
+EECON2                            00000089
+EEDATA                            00000008
+EEIE                              00000006
+EEIF                              00000004
+F                                 00000001
+FSR                               00000004
+GIE                               00000007
+INDF                              00000000
+INICIO                            00000007
+INTCON                            0000000B
+INTE                              00000004
+INTEDG                            00000006
+INTF                              00000001
+IRP                               00000007
+NOT_PD                            00000003
+NOT_RBPU                          00000007
+NOT_TO                            00000004
+OPTION_REG                        00000081
+PCL                               00000002
+PCLATH                            0000000A
+PORTA                             00000005
+PORTB                             00000006
+PS0                               00000000
+PS1                               00000001
+PS2                               00000002
+PSA                               00000003
+RA0                               00000000
+RA1                               00000001
+RA2                               00000002
+RA3                               00000003
+RA4                               00000004
+RB0                               00000000
+RB1                               00000001
+RB2                               00000002
+RB3                               00000003
+RB4                               00000004
+RB5                               00000005
+RB6                               00000006
+RB7                               00000007
+RBIE                              00000003
+RBIF                              00000000
+RD                                00000000
+RP0                               00000005
+RP1                               00000006
+STATUS                            00000003
+T0CS                              00000005
+T0IE                              00000005
+MPASM 5.84                          MAIN.ASM   3-13-2024  10:05:41         PAGE  4
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+T0IF                              00000002
+T0SE                              00000004
+TMR0                              00000001
+TMR0IE                            00000005
+TMR0IF                            00000002
+TRISA                             00000085
+TRISA0                            00000000
+TRISA1                            00000001
+TRISA2                            00000002
+TRISA3                            00000003
+TRISA4                            00000004
+TRISB                             00000086
+TRISB0                            00000000
+TRISB1                            00000001
+TRISB2                            00000002
+TRISB3                            00000003
+TRISB4                            00000004
+TRISB5                            00000005
+TRISB6                            00000006
+TRISB7                            00000007
+W                                 00000000
+WR                                00000001
+WREN                              00000002
+WRERR                             00000003
+Z                                 00000002
+_CONFIG                           00002007
+_CP_OFF                           00003FFF
+_CP_ON                            0000000F
+_DEVID1                           00002006
+_FOSC_EXTRC                       00003FFF
+_FOSC_HS                          00003FFE
+_FOSC_LP                          00003FFC
+_FOSC_XT                          00003FFD
+_HS_OSC                           00003FFE
+_IDLOC0                           00002000
+_IDLOC1                           00002001
+_IDLOC2                           00002002
+_IDLOC3                           00002003
+_LP_OSC                           00003FFC
+_PWRTE_OFF                        00003FFF
+_PWRTE_ON                         00003FF7
+_RC_OSC                           00003FFF
+_WDTE_OFF                         00003FFB
+_WDTE_ON                          00003FFF
+_WDT_OFF                          00003FFB
+_WDT_ON                           00003FFF
+_XT_OSC                           00003FFD
+__16F84A                          00000001
+
+Errors   :     0
+Warnings :    13 reported,     0 suppressed
+Messages :     4 reported,     0 suppressed
+
+

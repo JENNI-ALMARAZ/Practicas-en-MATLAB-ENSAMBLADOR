@@ -1,0 +1,21 @@
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 1 : Found directive in column 1. (__CONFIG)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 3 : Found directive in column 1. (LIST)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 4 : Found directive in column 1. (INCLUDE)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 6 : Found directive in column 1. (ORG)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 7 : Found opcode in column 1. (BSF)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 9 : Found opcode in column 1. (MOVLW)
+Warning[202] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 9 : Argument out of range.  Least significant bits used.
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 10 : Found opcode in column 1. (MOVWF)
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 10 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 11 : Found opcode in column 1. (CLRF)
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 11 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 13 : Found opcode in column 1. (BCF)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 19 : Found opcode in column 1. (BTFSC)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 20 : Found opcode in column 1. (GOTO)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 21 : Found opcode in column 1. (BTFSC)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 22 : Found opcode in column 1. (GOTO)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 23 : Found opcode in column 1. (BCF)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 24 : Found opcode in column 1. (GOTO)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 27 : Found opcode in column 1. (BSF)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 28 : Found opcode in column 1. (GOTO)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\OR1.X\MAIN.ASM 30 : Found directive in column 1. (END)
