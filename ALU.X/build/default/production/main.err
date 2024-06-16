@@ -1,0 +1,29 @@
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 2 : Found directive in column 1. (__CONFIG)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 4 : Found directive in column 1. (LIST)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 6 : Found directive in column 1. (INCLUDE)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 9 : Found directive in column 1. (ORG)
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 12 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 13 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 14 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 15 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 16 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 19 : Found label after column 1. (MAIN)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 26 : Found label after column 1. (CASO_MATEMATICO)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 34 : Found label after column 1. (RESTA)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 39 : Found label after column 1. (RESTA_1)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 48 : Found label after column 1. (RESTA_0)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 57 : Found label after column 1. (SUMA)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 62 : Found label after column 1. (SUMA_1)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 71 : Found label after column 1. (SUMA_0)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 80 : Found label after column 1. (CASO_LOGICO)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 88 : Found label after column 1. (OR)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 93 : Found label after column 1. (OR_1)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 97 : Found label after column 1. (OR_0)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 106 : Found label after column 1. (AND)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 111 : Found label after column 1. (AND_1)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 117 : Found label after column 1. (AND_0)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 125 : Found label after column 1. (APAGAR_LEDS)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 131 : Found label after column 1. (ENCENDER_LEDS)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 137 : Found label after column 1. (ENCENDER_F)
+Warning[207] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 146 : Found label after column 1. (ENCENDER_E)
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\ALU.X\MAIN.ASM 154 : Found directive in column 1. (END)

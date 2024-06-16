@@ -1,0 +1,70 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Wed May 29 09:33:58 2024
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000a0
+                   .cinit    romdata   0x000050    program   0x000004
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000051      
+                            0x002007    0x002007      
+            83 out of 2182 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      AND   0x000035    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                    AND_0   0x00003c    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                    AND_1   0x000038    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+              APAGAR_LEDS   0x00003e    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+              CASO_LOGICO   0x000029    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+          CASO_MATEMATICO   0x00000a    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+               ENCENDER_E   0x00004a    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+               ENCENDER_F   0x000044    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+            ENCENDER_LEDS   0x000041    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                     MAIN   0x000007    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                       OR   0x00002c    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                     OR_0   0x000031    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                     OR_1   0x00002f    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                    RESTA   0x00000d    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                  RESTA_0   0x000017    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                  RESTA_1   0x000010    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                     SUMA   0x00001b    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                   SUMA_0   0x000025    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                   SUMA_1   0x00001e    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     MAIN   0x000007    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+          CASO_MATEMATICO   0x00000a    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                    RESTA   0x00000d    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                  RESTA_1   0x000010    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                  RESTA_0   0x000017    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                     SUMA   0x00001b    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                   SUMA_1   0x00001e    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                   SUMA_0   0x000025    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+              CASO_LOGICO   0x000029    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                       OR   0x00002c    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                     OR_1   0x00002f    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                     OR_0   0x000031    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                      AND   0x000035    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                    AND_1   0x000038    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+                    AND_0   0x00003c    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+              APAGAR_LEDS   0x00003e    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+            ENCENDER_LEDS   0x000041    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+               ENCENDER_F   0x000044    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+               ENCENDER_E   0x00004a    program     static C:\Users\Jenni Almaraz\MPLABXProjects\ALU.X\main.asm
+
+
