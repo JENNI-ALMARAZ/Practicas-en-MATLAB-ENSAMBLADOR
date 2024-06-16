@@ -1,0 +1,13 @@
+Warning[205] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 1 : Found directive in column 1. (__CONFIG)
+Warning[202] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 13 : Argument out of range.  Least significant bits used.
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 14 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 15 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 17 : Found opcode in column 1. (BCF)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 22 : Found opcode in column 1. (BTFSC)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 23 : Found opcode in column 1. (CALL)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 24 : Found opcode in column 1. (BCF)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 25 : Found opcode in column 1. (GOTO)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 28 : Found opcode in column 1. (BTFSC)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 29 : Found opcode in column 1. (BSF)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 30 : Found opcode in column 1. (BCF)
+Warning[203] C:\USERS\JENNI ALMARAZ\MPLABXPROJECTS\AND.X\MAIN.ASM 31 : Found opcode in column 1. (RETURN)
